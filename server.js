@@ -1,7 +1,14 @@
+//we use synchronous version
+//top level code executed once we strat the program so in that matter it doesnt matter at all if it blocks the execution because it happens only once
+
+
 const fs=require('fs');
 const http=require('http');
 const url=require('url');
 const port=8000;
+
+const data=fs.readFileSync(`${__dirname}/dev-data/data.json`,'utf-8');
+const dataOb= JSON.parse(data);
 
 const server= http.createServer((req, res)=>{
   const pathName=req.url;
@@ -11,6 +18,13 @@ const server= http.createServer((req, res)=>{
   }
   else if(pathName==='/product'){
     res.end('This is the product');
+  }
+  else if(pathName=='/api'){
+    
+    res.writeHead(200,{'Content-type':'application/json'});
+    res.end(data);//what we want to send back is the data directly and the data is a string transformed into an object using json.parse
+   ;//__dirname=directory name*/
+
   }
   else{
     res.writeHead(404,{

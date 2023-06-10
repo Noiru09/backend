@@ -1,0 +1,57 @@
+[
+    {
+        "id":0,
+        "productName":"Fresh Avacadoes",
+        "image":"🥑",
+        "from":"Spain",
+        "nutrients":"Vitamin B,Vitamin K",
+        "quantity":"4🥑",
+        "price":"6.50",
+        "organic": true,
+        "description":"An avocado is a bright green fruit with a large pit and dark leathery skin. They're also known as alligator pears or butter fruit. Avocados are a favorite of the produce section. They're the go-to ingredient for guacamole dips."
+    },
+    {
+        "id":1,
+        "productName":"Goat and Sheep Cheese",
+        "image":"🧀",
+        "from":"Portugal",
+        "nutrients":"Vitamin A,Calcium",
+        "quantity":"250 gm",
+        "price":"5.00",
+        "organic": false,
+        "description":"The cheese is made from goat or sheep milk, and has a soft texture. Typically, the cheese takes 40 days to mature when made with goat's milk, and 50 days when made with ewe's milk. The fat content is around 45% and the cheese is usually a close-to-white colour."
+    },
+    {
+        "id":2,
+        "productName":"Apollo Brocolli",
+        "image":"🥦",
+        "from":"Portugal",
+        "nutrients":"Vitamin C,Vitamin K",
+        "quantity":"3 🥦",
+        "price":"5.50",
+        "organic": true,
+        "description":"The broccoli is a vegetable that belongs the cabbage family. Its consumption increases constantly, since it is a healthy food with multiple culinary uses. It has a pleasant taste and it is rich in mineral and vitamins. It is also low in calories.The broccoli is an original production of Italy. It belongs to the cabbage family, Brassica oleracea species var. italica. It is very similar to the cauliflower, some authors even consider it the same variety."
+    },
+    {
+        "id":3,
+        "productName":"Baby Carrots",
+        "image":"🥕",
+        "from":"France",
+        "nutrients":"Vitamin A,Vitamin K",
+        "quantity":"20 🥕",
+        "price":"3.00",
+        "organic": true,
+        "description":"Carrot is a biennial, belonging to the family Apiaceae, and is an important vegetable for its fleshy edible, colorful roots. It varies in colour from white, yellow, orange, light purple, deep red to deep violet."
+    },
+    {
+        "id":4,
+        "productName":"Sweet Corncobs",
+        "image":"🌽",
+        "from":"Germany",
+        "nutrients":"Vitamin C,Vitamin Calcium",
+        "quantity":"2 🌽",
+        "price":"2.00",
+        "organic": false,
+        "description":"Corn is a tall annual cereal grass (Zea mays) that is widely grown for its large elongated ears of starchy seeds. The seeds, which are also known as corn, are used as food for humans and livestock and as a source of biofuel and can be processed into a wide range of useful chemicals."
+    }
+]
